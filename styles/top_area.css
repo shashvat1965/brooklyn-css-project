@@ -1,0 +1,81 @@
+.person_details_top{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    justify-content: space-between;
+    width: 70vw;
+    top: 200px
+}
+
+.person_image{
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px -1px 50px rgb(216, 214, 214);
+    height: 600px;
+    z-index: 1;
+    width: 475px;
+}
+
+.person_desc_top {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 475px;
+    justify-content: space-between;
+    font-family: WorkSans, serif;
+}
+
+.bold_text_top{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.normal_desc{
+    margin-top: 30px;
+    color: grey;
+}
+
+.button{
+    margin-top: 30px;
+    background-color: #a13cf6;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.stats {
+    display: flex;
+    gap: 3px;
+}
+
+.stat_box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f6ebfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.stat_bold_text{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: WorkSans, serif;
+}
+
+.stat_normal_text{
+    color: grey;
+    font-size: 12px;
+    font-family: WorkSans, serif;
+}

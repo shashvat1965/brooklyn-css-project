@@ -1,0 +1,35 @@
+@font-face {
+    font-family: WorkSans;
+    src: url("./fonts/worksans.ttf");
+}
+
+.all{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+}
+
+.main_content{
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 200px;
+}
+
+.bg_images{
+    position: absolute;
+    top: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,23 @@
+.purple_grad{
+    height: 500px;
+    width: 1000px;
+}
+
+.green_grad{
+    height: 900px;
+    width: 700px;
+}
+
+.yellow_grad{
+    margin-top: -400px;
+    align-self: flex-start;
+    width: 900px;
+    height: 700px;
+}
+
+.grey_bg{
+    margin-top: -100px;
+    background-color: #f0f1f3;
+    width: 100vw;
+    height: 1200px;
+}

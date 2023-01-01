@@ -1,0 +1,54 @@
+.navbar_wrapper{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.person_details_nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pname{
+    font-family: WorkSans, serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-family: WorkSans, serif;
+    background: #a13cf6;
+    color: white;
+    font-size:24px;
+    border-radius: 30px;
+}
+
+.nav_items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav_item{
+    font-size: 15px;
+    font-family: WorkSans, serif;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 120px;
+    background: #a13cf6;
+    border-radius: 10px;
+    color: white;
+}
